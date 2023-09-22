@@ -2,6 +2,7 @@ import Navbar from "../components/Navbar";
 import QueryBot from "../components/QueryBot";
 import Forum from "../components/Forum";
 import About from "../components/About";
+import Game from "./Game";
 import {Routes,Route} from 'react-router-dom';
 function Homepage(){
     return(
@@ -11,7 +12,7 @@ function Homepage(){
                 <Route path='/' element={<About/>}/>
                 <Route path='/forum' element={<Forum/>}/>
                 <Route path='/bot' element={<QueryBot/>}/>
-                
+                <Route path="/game" element={<Game/>}/>
             </Routes>
         </div>
     )
