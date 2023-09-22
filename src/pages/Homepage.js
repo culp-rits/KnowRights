@@ -11,6 +11,7 @@ function Homepage(){
                 <Route path='/' element={<About/>}/>
                 <Route path='/forum' element={<Forum/>}/>
                 <Route path='/bot' element={<QueryBot/>}/>
+                
             </Routes>
         </div>
     )

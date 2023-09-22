@@ -11,7 +11,7 @@ function QueryBot() {
         <div className='flex items-center w-2/3 bg-white rounded-11xl p-2 mt-16'>
             <input
             type="text"
-            value="Enter your text here...."
+            placeholder="Enter your text here...."
             className="font-russo-one text-slate-500  border-none w-full text-5xl"
             />
             <img src="/send-fill0-wght400-grad0-opsz24-1.svg" alt="" />
@@ -20,7 +20,7 @@ function QueryBot() {
             <textarea
             rows="8"
             readOnly
-            value="Here is a solution to your problem..."
+            placeholder="Here is a solution to your problem..."
             className="font-russo-one text-darkblue border-none w-full text-5xl"
             />
         </div>
