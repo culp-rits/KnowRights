@@ -1,7 +1,7 @@
 function Sucess(props){
     const handleClick=(e)=>{
         e.preventDefault();
-        props.setState(0);
+        props.setState(4);
     }
     return(
         <div className="flex flex-row px-[5%] pb-[5%] min-h-[70vh]">
